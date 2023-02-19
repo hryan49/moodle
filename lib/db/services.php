@@ -394,6 +394,13 @@ $functions = array(
         'type' => 'read',
         'services' => array(MOODLE_OFFICIAL_MOBILE_SERVICE),
     ),
+    'core_completion_get_activities_completion_status_by_group' => array(
+        'classname' => 'core_completion_external',
+        'methodname' => 'get_activities_completion_status_by_group',
+        'description' => 'Return the activities completion status for members of a group in a course.',
+        'type' => 'read',
+        'services' => array(MOODLE_OFFICIAL_MOBILE_SERVICE),
+    ),
     'core_completion_get_course_completion_status' => array(
         'classname' => 'core_completion_external',
         'methodname' => 'get_course_completion_status',
